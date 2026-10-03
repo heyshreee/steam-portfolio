@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 760" width="100%" height="100%" role="img" aria-label="Illustration of the portfolio template layout: vertical side navigation, hero with dot grid, about section with skills, and a two column project grid.">
+  <defs>
+    <linearGradient id="pvBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#09090b" />
+      <stop offset="60%" stop-color="#18181b" />
+      <stop offset="100%" stop-color="#1e1b4b" />
+    </linearGradient>
+    <linearGradient id="pvAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#4338ca" />
+    </linearGradient>
+    <filter id="pvShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="18" stdDeviation="26" flood-color="#000000" flood-opacity="0.7"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="760" fill="url(#pvBg)" />
+  <g opacity="0.07" stroke="#6366f1" stroke-width="1">
+    <path d="M0,80 H1280 M0,160 H1280 M0,240 H1280 M0,320 H1280 M0,400 H1280 M0,480 H1280 M0,560 H1280 M0,640 H1280 M0,720 H1280" />
+    <path d="M160,0 V760 M320,0 V760 M480,0 V760 M640,0 V760 M800,0 V760 M960,0 V760 M1120,0 V760" />
+  </g>
+  <circle cx="1120" cy="120" r="220" fill="#6366f1" opacity="0.2" filter="blur(70px)" />
+
+  <!-- browser chrome -->
+  <g filter="url(#pvShadow)">
+    <rect x="60" y="48" width="1160" height="664" rx="18" fill="#18181b" stroke="#27272a" stroke-width="2" />
+    <path d="M60,66 a18,18 0 0 1 18,-18 h1124 a18,18 0 0 1 18,18 v40 H60 Z" fill="#27272a" />
+  </g>
+  <circle cx="92" cy="76" r="7" fill="#ef4444" />
+  <circle cx="116" cy="76" r="7" fill="#f59e0b" />
+  <circle cx="140" cy="76" r="7" fill="#10b981" />
+  <rect x="420" y="62" width="440" height="28" rx="14" fill="#131318" />
+  <text x="640" y="81" fill="#52525b" font-family="ui-monospace, monospace" font-size="13" text-anchor="middle">your-domain.dev</text>
+
+  <!-- side rail -->
+  <g>
+    <rect x="60" y="106" width="58" height="606" fill="#09090b" />
+    <rect x="117" y="106" width="1" height="606" fill="#27272a" />
+    <text x="89" y="146" fill="#f4f4f5" font-family="system-ui, sans-serif" font-size="20" font-weight="900" text-anchor="middle">A</text>
+    <circle cx="93" cy="164" r="3" fill="#6366f1" />
+
+    <rect x="61" y="188" width="56" height="76" fill="#27272a" />
+    <rect x="115" y="188" width="3" height="76" fill="url(#pvAccent)" />
+    <text x="89" y="230" fill="#ffffff" font-family="system-ui, sans-serif" font-size="12" text-anchor="middle" transform="rotate(90 89 222)">About</text>
+
+    <rect x="61" y="272" width="56" height="76" fill="transparent" />
+    <text x="89" y="316" fill="#a1a1aa" font-family="system-ui, sans-serif" font-size="12" text-anchor="middle" transform="rotate(90 89 308)">Projects</text>
+
+    <rect x="61" y="356" width="56" height="76" fill="transparent" />
+    <text x="89" y="400" fill="#a1a1aa" font-family="system-ui, sans-serif" font-size="12" text-anchor="middle" transform="rotate(90 89 392)">Exp.</text>
+
+    <rect x="61" y="440" width="56" height="76" fill="transparent" />
+    <text x="89" y="484" fill="#a1a1aa" font-family="system-ui, sans-serif" font-size="12" text-anchor="middle" transform="rotate(90 89 476)">Contact</text>
+  </g>
+
+  <!-- top header -->
+  <g>
+    <rect x="118" y="106" width="1102" height="60" fill="#18181b" opacity="0.9" />
+    <rect x="118" y="165" width="1102" height="1" fill="#27272a" />
+    <circle cx="152" cy="136" r="9" fill="#52525b" />
+    <circle cx="184" cy="136" r="9" fill="#52525b" />
+    <circle cx="216" cy="136" r="9" fill="#52525b" />
+    <rect x="1080" y="122" width="112" height="28" rx="6" fill="none" stroke="#f4f4f5" stroke-width="1.5" />
+    <text x="1136" y="140" fill="#f4f4f5" font-family="system-ui, sans-serif" font-size="12" text-anchor="middle">My Resume</text>
+  </g>
+
+  <!-- hero -->
+  <g>
+    <text x="180" y="252" fill="#f4f4f5" font-family="system-ui, sans-serif" font-size="46" font-weight="900">Hi, I&#39;m Alex</text>
+    <circle cx="470" cy="240" r="7" fill="#6366f1" />
+    <text x="180" y="300" fill="#d4d4d8" font-family="system-ui, sans-serif" font-size="24">I&#39;m a</text>
+    <text x="252" y="300" fill="#818cf8" font-family="system-ui, sans-serif" font-size="24" font-weight="600">Full-Stack Developer</text>
+    <rect x="180" y="326" width="380" height="10" rx="5" fill="#3f3f46" />
+    <rect x="180" y="346" width="300" height="10" rx="5" fill="#3f3f46" />
+    <rect x="180" y="376" width="112" height="34" rx="6" fill="url(#pvAccent)" />
+    <text x="236" y="398" fill="#ffffff" font-family="system-ui, sans-serif" font-size="13" font-weight="600" text-anchor="middle">Contact Me</text>
+
+    <!-- dot grid -->
+    <g transform="translate(700, 200)">
+      <g fill="#52525b">
+        <circle cx="0" cy="0" r="4" /><circle cx="26" cy="0" r="4" /><circle cx="52" cy="0" r="4" /><circle cx="78" cy="0" r="4" /><circle cx="104" cy="0" r="4" /><circle cx="130" cy="0" r="4" /><circle cx="156" cy="0" r="4" /><circle cx="182" cy="0" r="4" /><circle cx="208" cy="0" r="4" /><circle cx="234" cy="0" r="4" /><circle cx="260" cy="0" r="4" /><circle cx="286" cy="0" r="4" /><circle cx="312" cy="0" r="4" /><circle cx="338" cy="0" r="4" /><circle cx="364" cy="0" r="4" /><circle cx="390" cy="0" r="4" /><circle cx="416" cy="0" r="4" /><circle cx="442" cy="0" r="4" /><circle cx="468" cy="0" r="4" />
+        <circle cx="0" cy="26" r="4" /><circle cx="26" cy="26" r="4" /><circle cx="52" cy="26" r="4" /><circle cx="78" cy="26" r="4" /><circle cx="104" cy="26" r="4" /><circle cx="130" cy="26" r="4" /><circle cx="156" cy="26" r="4" /><circle cx="182" cy="26" r="4" /><circle cx="208" cy="26" r="4" /><circle cx="234" cy="26" r="4" /><circle cx="260" cy="26" r="4" /><circle cx="286" cy="26" r="4" /><circle cx="312" cy="26" r="4" /><circle cx="338" cy="26" r="4" /><circle cx="364" cy="26" r="4" /><circle cx="390" cy="26" r="4" /><circle cx="416" cy="26" r="4" /><circle cx="442" cy="26" r="4" /><circle cx="468" cy="26" r="4" />
+        <circle cx="0" cy="52" r="4" /><circle cx="26" cy="52" r="4" /><circle cx="52" cy="52" r="4" /><circle cx="78" cy="52" r="4" /><circle cx="104" cy="52" r="4" /><circle cx="130" cy="52" r="4" /><circle cx="156" cy="52" r="4" /><circle cx="182" cy="52" r="4" /><circle cx="208" cy="52" r="4" /><circle cx="234" cy="52" r="4" /><circle cx="260" cy="52" r="4" /><circle cx="286" cy="52" r="4" /><circle cx="312" cy="52" r="4" /><circle cx="338" cy="52" r="4" /><circle cx="364" cy="52" r="4" /><circle cx="390" cy="52" r="4" /><circle cx="416" cy="52" r="4" /><circle cx="442" cy="52" r="4" /><circle cx="468" cy="52" r="4" />
+        <circle cx="0" cy="78" r="4" /><circle cx="26" cy="78" r="4" /><circle cx="52" cy="78" r="4" /><circle cx="78" cy="78" r="4" /><circle cx="104" cy="78" r="4" /><circle cx="130" cy="78" r="4" /><circle cx="156" cy="78" r="4" /><circle cx="182" cy="78" r="4" /><circle cx="208" cy="78" r="4" /><circle cx="234" cy="78" r="4" /><circle cx="260" cy="78" r="4" /><circle cx="286" cy="78" r="4" /><circle cx="312" cy="78" r="4" /><circle cx="338" cy="78" r="4" /><circle cx="364" cy="78" r="4" /><circle cx="390" cy="78" r="4" /><circle cx="416" cy="78" r="4" /><circle cx="442" cy="78" r="4" /><circle cx="468" cy="78" r="4" />
+        <circle cx="0" cy="104" r="4" /><circle cx="26" cy="104" r="4" /><circle cx="52" cy="104" r="4" /><circle cx="78" cy="104" r="4" /><circle cx="104" cy="104" r="4" /><circle cx="130" cy="104" r="4" /><circle cx="156" cy="104" r="4" /><circle cx="182" cy="104" r="4" /><circle cx="208" cy="104" r="4" /><circle cx="234" cy="104" r="4" /><circle cx="260" cy="104" r="4" /><circle cx="286" cy="104" r="4" /><circle cx="312" cy="104" r="4" /><circle cx="338" cy="104" r="4" /><circle cx="364" cy="104" r="4" /><circle cx="390" cy="104" r="4" /><circle cx="416" cy="104" r="4" /><circle cx="442" cy="104" r="4" /><circle cx="468" cy="104" r="4" />
+        <circle cx="0" cy="130" r="4" /><circle cx="26" cy="130" r="4" /><circle cx="52" cy="130" r="4" /><circle cx="78" cy="130" r="4" /><circle cx="104" cy="130" r="4" /><circle cx="130" cy="130" r="4" /><circle cx="156" cy="130" r="4" /><circle cx="182" cy="130" r="4" /><circle cx="208" cy="130" r="4" /><circle cx="234" cy="130" r="4" /><circle cx="260" cy="130" r="4" /><circle cx="286" cy="130" r="4" /><circle cx="312" cy="130" r="4" /><circle cx="338" cy="130" r="4" /><circle cx="364" cy="130" r="4" /><circle cx="390" cy="130" r="4" /><circle cx="416" cy="130" r="4" /><circle cx="442" cy="130" r="4" /><circle cx="468" cy="130" r="4" />
+      </g>
+      <circle cx="234" cy="52" r="11" fill="#6366f1" />
+      <circle cx="130" cy="104" r="8" fill="#818cf8" opacity="0.8" />
+      <circle cx="338" cy="78" r="8" fill="#818cf8" opacity="0.6" />
+      <circle cx="26" cy="26" r="7" fill="#e4e4e7" opacity="0.7" />
+    </g>
+  </g>
+
+  <!-- about divider + skills column -->
+  <g>
+    <rect x="180" y="452" width="180" height="1" fill="#3f3f46" />
+    <text x="374" y="446" fill="#fafafa" font-family="system-ui, sans-serif" font-size="30" font-weight="900">About</text>
+    <circle cx="452" cy="436" r="5" fill="#6366f1" />
+
+    <g font-family="system-ui, sans-serif" font-size="12">
+      <rect x="180" y="482" width="300" height="9" rx="4" fill="#3f3f46" />
+      <rect x="180" y="502" width="340" height="9" rx="4" fill="#3f3f46" />
+      <rect x="180" y="522" width="270" height="9" rx="4" fill="#3f3f46" />
+      <rect x="180" y="542" width="320" height="9" rx="4" fill="#3f3f46" />
+      <rect x="180" y="562" width="220" height="9" rx="4" fill="#3f3f46" />
+      <circle cx="196" cy="608" r="10" fill="#52525b" />
+      <circle cx="228" cy="608" r="10" fill="#52525b" />
+      <circle cx="260" cy="608" r="10" fill="#52525b" />
+      <circle cx="292" cy="608" r="10" fill="#52525b" />
+    </g>
+
+    <g transform="translate(560, 470)" font-family="system-ui, sans-serif">
+      <rect width="86" height="18" rx="4" fill="#6366f1" />
+      <text x="43" y="13" fill="#c7d2fe" font-size="10" font-weight="600" text-anchor="middle">USE AT WORK</text>
+      <g fill="#3f3f46">
+        <rect x="0" y="28" width="64" height="22" rx="5" /><rect x="70" y="28" width="76" height="22" rx="5" /><rect x="152" y="28" width="58" height="22" rx="5" />
+        <rect x="0" y="56" width="70" height="22" rx="5" /><rect x="76" y="56" width="86" height="22" rx="5" /><rect x="168" y="56" width="62" height="22" rx="5" />
+      </g>
+      <rect x="0" y="104" width="92" height="18" rx="4" fill="#6366f1" />
+      <text x="46" y="117" fill="#c7d2fe" font-size="10" font-weight="600" text-anchor="middle">USE FOR FUN</text>
+      <g fill="#3f3f46">
+        <rect x="0" y="132" width="54" height="22" rx="5" /><rect x="60" y="132" width="66" height="22" rx="5" /><rect x="132" y="132" width="72" height="22" rx="5" />
+      </g>
+    </g>
+  </g>
+
+  <!-- projects -->
+  <g transform="translate(180, 634)">
+    <rect width="128" height="1" fill="#3f3f46" />
+    <text x="140" y="-6" fill="#fafafa" font-family="system-ui, sans-serif" font-size="26" font-weight="900">Projects</text>
+    <circle cx="234" cy="-14" r="5" fill="#6366f1" />
+
+    <g transform="translate(0, 16)">
+      <rect width="300" height="0" fill="none" />
+      <rect width="298" height="96" rx="10" fill="#27272a" stroke="#3f3f46" />
+      <rect x="24" y="14" width="250" height="62" rx="6" fill="#3f3f46" />
+      <rect x="24" y="14" width="250" height="62" rx="6" fill="url(#pvAccent)" opacity="0.25" />
+      <rect x="0" y="112" width="120" height="12" rx="4" fill="#e4e4e7" />
+      <rect x="126" y="114" width="172" height="8" rx="4" fill="#3f3f46" />
+      <rect x="0" y="136" width="150" height="8" rx="4" fill="#6366f1" opacity="0.7" />
+      <rect x="0" y="154" width="290" height="7" rx="3" fill="#3f3f46" />
+    </g>
+
+    <g transform="translate(330, 16)">
+      <rect width="298" height="96" rx="10" fill="#27272a" stroke="#3f3f46" />
+      <rect x="24" y="14" width="250" height="62" rx="6" fill="#3f3f46" />
+      <rect x="24" y="14" width="250" height="62" rx="6" fill="#22d3ee" opacity="0.18" />
+      <rect x="0" y="112" width="100" height="12" rx="4" fill="#e4e4e7" />
+      <rect x="106" y="114" width="192" height="8" rx="4" fill="#3f3f46" />
+      <rect x="0" y="136" width="170" height="8" rx="4" fill="#6366f1" opacity="0.7" />
+      <rect x="0" y="154" width="270" height="7" rx="3" fill="#3f3f46" />
+    </g>
+  </g>
+
+  <text x="60" y="742" fill="#3f3f46" font-family="system-ui, sans-serif" font-size="11">Illustration of the template layout — run `npm run dev` to see it live.</text>
+</svg>

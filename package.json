@@ -1,0 +1,46 @@
+{
+  "name": "steam-portfolio-template",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A modern, animated developer portfolio template built with React 19, TypeScript, Vite, Tailwind CSS v4, Framer Motion and Anime.js. Customize one config file and deploy.",
+  "keywords": [
+    "portfolio",
+    "portfolio-template",
+    "react",
+    "typescript",
+    "vite",
+    "tailwindcss",
+    "framer-motion",
+    "developer-portfolio",
+    "resume",
+    "spa"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "oxlint",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "animejs": "^3.2.2",
+    "framer-motion": "^13.4.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "react-icons": "^5.7.0",
+    "tailwind-merge": "^3.7.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/animejs": "^3.1.13",
+    "@types/node": "^24.13.3",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "@vitejs/plugin-react": "^6.1.1",
+    "oxlint": "^1.81.0",
+    "tailwindcss": "^4.3.3",
+    "typescript": "~6.0.2",
+    "vite": "^8.3.0"
+  }
+}

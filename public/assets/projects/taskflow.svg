@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="100%" height="100%">
+  <defs>
+    <linearGradient id="tfBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#18181b" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e1b4b" />
+    </linearGradient>
+    <linearGradient id="tfAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#4338ca" />
+    </linearGradient>
+    <filter id="tfShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="16" stdDeviation="22" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="720" fill="url(#tfBg)" />
+
+  <g opacity="0.09" stroke="#6366f1" stroke-width="1">
+    <path d="M0,80 H1280 M0,160 H1280 M0,240 H1280 M0,320 H1280 M0,400 H1280 M0,480 H1280 M0,560 H1280 M0,640 H1280" />
+    <path d="M160,0 V720 M320,0 V720 M480,0 V720 M640,0 V720 M800,0 V720 M960,0 V720 M1120,0 V720" />
+  </g>
+
+  <circle cx="240" cy="180" r="280" fill="#6366f1" opacity="0.18" filter="blur(80px)" />
+  <circle cx="1040" cy="540" r="250" fill="#22d3ee" opacity="0.13" filter="blur(80px)" />
+
+  <g transform="translate(140, 70)" filter="url(#tfShadow)">
+    <rect width="1000" height="580" rx="16" fill="#18181b" stroke="#27272a" stroke-width="2" />
+
+    <rect width="1000" height="52" rx="16" fill="#27272a" />
+    <rect y="36" width="1000" height="16" fill="#27272a" />
+    <circle cx="32" cy="26" r="6" fill="#ef4444" />
+    <circle cx="52" cy="26" r="6" fill="#f59e0b" />
+    <circle cx="72" cy="26" r="6" fill="#10b981" />
+    <text x="500" y="32" fill="#a1a1aa" font-family="system-ui, sans-serif" font-size="14" font-weight="600" text-anchor="middle">TaskFlow — Sprint Board (React · TypeScript · Node · PostgreSQL)</text>
+
+    <rect x="0" y="52" width="180" height="528" fill="#131318" />
+    <rect x="180" y="52" width="1" height="528" fill="#27272a" />
+
+    <circle cx="28" cy="86" r="12" fill="url(#tfAccent)" />
+    <text x="50" y="91" fill="#f4f4f5" font-family="system-ui, sans-serif" font-size="14" font-weight="700">TaskFlow</text>
+
+    <g font-family="system-ui, sans-serif" font-size="12">
+      <rect x="14" y="116" width="152" height="30" rx="6" fill="#27272a" />
+      <text x="30" y="136" fill="#f4f4f5" font-weight="600">▦  My tasks</text>
+
+      <text x="30" y="176" fill="#71717a">◷  Upcoming</text>
+      <text x="30" y="206" fill="#71717a">⚑  Roadmap</text>
+      <text x="30" y="236" fill="#71717a">✓  Completed</text>
+    </g>
+
+    <rect x="14" y="266" width="152" height="1" fill="#27272a" />
+    <text x="30" y="296" fill="#52525b" font-family="system-ui, sans-serif" font-size="11" font-weight="700" letter-spacing="1">WORKSPACES</text>
+    <g font-family="system-ui, sans-serif" font-size="12" fill="#71717a">
+      <circle cx="30" cy="322" r="5" fill="#6366f1" />
+      <text x="46" y="326">Platform</text>
+      <circle cx="30" cy="350" r="5" fill="#22d3ee" />
+      <text x="46" y="354">Website</text>
+      <circle cx="30" cy="378" r="5" fill="#f472b6" />
+      <text x="46" y="382">Mobile</text>
+    </g>
+
+    <g transform="translate(14, 500)">
+      <rect width="152" height="56" rx="8" fill="#1f1f28" stroke="#27272a" />
+      <text x="14" y="24" fill="#a1a1aa" font-family="system-ui, sans-serif" font-size="11">Offline drafts</text>
+      <text x="14" y="42" fill="#10b981" font-family="system-ui, sans-serif" font-size="12" font-weight="600">● synced</text>
+    </g>
+
+    <g transform="translate(212, 78)">
+      <rect width="300" height="32" rx="8" fill="#1f1f28" stroke="#27272a" />
+      <text x="14" y="21" fill="#71717a" font-family="system-ui, sans-serif" font-size="12">⌕  Search tasks, press /</text>
+
+      <rect x="700" y="0" width="76" height="32" rx="8" fill="#1f1f28" stroke="#27272a" />
+      <text x="738" y="21" fill="#a1a1aa" font-family="system-ui, sans-serif" font-size="12" text-anchor="middle">Filter</text>
+
+      <rect x="784" y="0" width="94" height="32" rx="8" fill="#1f1f28" stroke="#27272a" />
+      <text x="831" y="21" fill="#a1a1aa" font-family="system-ui, sans-serif" font-size="12" text-anchor="middle">Group: Sprint</text>
+
+      <rect x="886" y="0" width="86" height="32" rx="8" fill="url(#tfAccent)" />
+      <text x="929" y="21" fill="#ffffff" font-family="system-ui, sans-serif" font-size="12" font-weight="600" text-anchor="middle">+ New task</text>
+    </g>
+
+    <g transform="translate(212, 132)" font-family="system-ui, sans-serif">
+      <g transform="translate(0, 0)">
+        <circle cx="7" cy="8" r="6" fill="#6366f1" />
+        <text x="24" y="13" fill="#f4f4f5" font-size="14" font-weight="700">Backlog</text>
+        <text x="238" y="13" fill="#71717a" font-size="12">4</text>
+
+        <g transform="translate(0, 30)">
+          <rect width="238" height="86" rx="8" fill="#1f1f28" stroke="#27272a" />
+          <rect x="14" y="14" width="64" height="16" rx="4" fill="#6366f1" opacity="0.25" />
+          <text x="46" y="26" fill="#a5b4fc" font-size="10" text-anchor="middle">DESIGN</text>
+          <text x="14" y="52" fill="#e4e4e7" font-size="13" font-weight="600">Keyboard shortcuts map</text>
+          <circle cx="24" cy="72" r="8" fill="#4338ca" />
+          <circle cx="46" cy="72" r="8" fill="#0e7490" />
+          <text x="224" y="76" fill="#52525b" font-size="11" text-anchor="end">◷ 2d</text>
+        </g>
+
+        <g transform="translate(0, 126)">
+          <rect width="238" height="86" rx="8" fill="#1f1f28" stroke="#27272a" />
+          <rect x="14" y="14" width="72" height="16" rx="4" fill="#22d3ee" opacity="0.22" />
+          <text x="50" y="26" fill="#67e8f9" font-size="10" text-anchor="middle">BACKEND</text>
+          <text x="14" y="52" fill="#e4e4e7" font-size="13" font-weight="600">Sync conflict audit log</text>
+          <circle cx="24" cy="72" r="8" fill="#4338ca" />
+          <text x="224" y="76" fill="#52525b" font-size="11" text-anchor="end">◷ 5d</text>
+        </g>
+      </g>
+
+      <g transform="translate(262, 0)">
+        <circle cx="7" cy="8" r="6" fill="#f59e0b" />
+        <text x="24" y="13" fill="#f4f4f5" font-size="14" font-weight="700">In progress</text>
+        <text x="238" y="13" fill="#71717a" font-size="12">2</text>
+
+        <g transform="translate(0, 30)">
+          <rect width="238" height="104" rx="8" fill="#27272a" stroke="#3f3f46" />
+          <rect x="14" y="14" width="88" height="16" rx="4" fill="#6366f1" opacity="0.3" />
+          <text x="58" y="26" fill="#a5b4fc" font-size="10" text-anchor="middle">FRONTEND</text>
+          <text x="14" y="52" fill="#fafafa" font-size="13" font-weight="600">Normalised board state</text>
+          <text x="14" y="72" fill="#a1a1aa" font-size="11">Undo / redo in one place</text>
+          <rect x="14" y="82" width="210" height="6" rx="3" fill="#3f3f46" />
+          <rect x="14" y="82" width="142" height="6" rx="3" fill="#6366f1" />
+        </g>
+
+        <g transform="translate(0, 144)">
+          <rect width="238" height="86" rx="8" fill="#1f1f28" stroke="#27272a" />
+          <rect x="14" y="14" width="80" height="16" rx="4" fill="#10b981" opacity="0.2" />
+          <text x="54" y="26" fill="#6ee7b7" font-size="10" text-anchor="middle">INFRA</text>
+          <text x="14" y="52" fill="#e4e4e7" font-size="13" font-weight="600">IndexedDB draft cache</text>
+          <circle cx="24" cy="72" r="8" fill="#be123c" />
+          <circle cx="46" cy="72" r="8" fill="#4338ca" />
+          <text x="224" y="76" fill="#52525b" font-size="11" text-anchor="end">◷ 1d</text>
+        </g>
+      </g>
+
+      <g transform="translate(524, 0)">
+        <circle cx="7" cy="8" r="6" fill="#10b981" />
+        <text x="24" y="13" fill="#f4f4f5" font-size="14" font-weight="700">Done</text>
+        <text x="238" y="13" fill="#71717a" font-size="12">6</text>
+
+        <g transform="translate(0, 30)">
+          <rect width="238" height="86" rx="8" fill="#1f1f28" stroke="#27272a" />
+          <text x="14" y="34" fill="#a1a1aa" font-size="13">✓  Schema validation layer</text>
+          <text x="14" y="56" fill="#52525b" font-size="11">merged · 2 days ago</text>
+          <text x="14" y="74" fill="#10b981" font-size="11" font-weight="600">shipped</text>
+        </g>
+
+        <g transform="translate(0, 126)">
+          <rect width="238" height="86" rx="8" fill="#1f1f28" stroke="#27272a" />
+          <text x="14" y="34" fill="#a1a1aa" font-size="13">✓  Command palette shell</text>
+          <text x="14" y="56" fill="#52525b" font-size="11">merged · 4 days ago</text>
+          <text x="14" y="74" fill="#10b981" font-size="11" font-weight="600">shipped</text>
+        </g>
+
+        <g transform="translate(0, 222)">
+          <rect width="238" height="86" rx="8" fill="#1f1f28" stroke="#27272a" />
+          <text x="14" y="34" fill="#a1a1aa" font-size="13">✓  Keyboard-first quick add</text>
+          <text x="14" y="56" fill="#52525b" font-size="11">merged · last week</text>
+          <text x="14" y="74" fill="#10b981" font-size="11" font-weight="600">shipped</text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
